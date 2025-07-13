@@ -33,9 +33,8 @@ class Instructor:
             print(f"\nGrades for {student.name}:")
             student.display_grades()
 
-# Interactive Part
 if __name__ == "__main__":
-    instructor = Instructor("Dr. Smith", "Programming 101")
+    instructor = Instructor("Allan", "API")
 
     while True:
         print("\n1. Add Student\n2. Assign Grade\n3. Display All Grades\n4. Exit")
