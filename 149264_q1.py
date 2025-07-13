@@ -10,7 +10,7 @@ class Book:
     def mark_as_returned(self):
         self.is_borrowed = False
 
-class LibMember:
+class LibraryMember:
     def __init__(self, name, member_id):
         self.name = name
         self.member_id = member_id
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     book1 = Book("Americanah", "Chimamanda Ngozi")
     book2 = Book("Facing Mount Kenya", "Jomo Kenyatta")
 
-    member = LibMember("John", "BBT001")
+    member = LibraryMember("John", "BBT001")
 
     while True:
         print("\n1. Borrow Book\n2. Return Book\n3. List Borrowed Books\n4. Exit")
